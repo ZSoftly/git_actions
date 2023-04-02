@@ -26,4 +26,4 @@ jobs:
       with:
         context: "{{defaultContext}}:date"
         push: true
-        tags: "${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.APP_NAME }}:latest
+        tags: "${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.APP_NAME }}:latest"
