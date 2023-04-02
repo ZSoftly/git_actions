@@ -1,6 +1,6 @@
 name: Build and Deploy to Docker Hub
 
-on:
+# on:
   push:
     branches:
       - main
