@@ -36,7 +36,7 @@ def hello_world():
 </head>
 <body>
     <div id="date-time">{{ current_datetime }}</div>
-    <h1>Hello, World!, Welcome to ZSoftly</h1>
+    <h1>Hello Folks, Welcome to ZSoftly!</h1>
 </body>
 </html>
 '''
