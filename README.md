@@ -5,6 +5,7 @@
 ## Requirements
 - You need to have python3 installed on your local server
 - You need to have flasks installed locally
+  `pip3 install Flask`
 
 ## Run the application locally 
 
