@@ -34,5 +34,5 @@ jobs:
         VERSION="v1.${COMMIT_COUNT}.${RUN_NUMBER}"
         IMAGE_NAME="${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.APP_NAME }}:${VERSION}"
         
-        docker build -t $IMAGE_NAME -f hw/Dockerfile hw/
+        docker build -t $IMAGE_NAME -f date/Dockerfile date/
         docker push $IMAGE_NAME
