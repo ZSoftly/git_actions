@@ -1,3 +1,5 @@
+[![Build and Deploy to Docker Hub with pre build actions](https://github.com/ZSoftly/git_actions/actions/workflows/pre_built.yaml/badge.svg?branch=main)](https://github.com/ZSoftly/git_actions/actions/workflows/pre_built.yaml)
+
 ## These Repository contains the code for a simple hello world application in python, using the flasks framework
 
 ## Requirements
