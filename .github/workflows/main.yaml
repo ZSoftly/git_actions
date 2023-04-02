@@ -32,8 +32,7 @@ jobs:
         COMMIT_COUNT=$(git rev-list --count HEAD)
         RUN_NUMBER=${{ github.run_number }}
         VERSION="v1.${COMMIT_COUNT}.${RUN_NUMBER}"
-        IMAGE_NAME="${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.APP_NAME
-}}:${VERSION}"
+        IMAGE_NAME="${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.APP_NAME }}:${VERSION}"
         
         docker build -t $IMAGE_NAME -f hw/Dockerfile hw/
         docker push $IMAGE_NAME
