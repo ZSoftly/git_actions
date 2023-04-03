@@ -11,6 +11,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    
+    - name: Set up status
+      uses: actions/steps/status@v2
+      with:
+        context: 'continuous-integration'
+        state: ${{ job.status }}
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
